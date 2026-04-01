@@ -26,18 +26,24 @@
 
 # File marks:
 '0  110  0  ~/hello.py
-|4,48,110,0,1775052039,"~/hello.py"
+|4,48,110,0,1775056185,"~/hello.py"
+'1  110  0  ~/hello.py
+|4,49,110,0,1775052039,"~/hello.py"
 
 # Jumplist (newest first):
+-'  110  0  ~/hello.py
+|4,39,110,0,1775056185,"~/hello.py"
 -'  110  0  ~/hello.py
 |4,39,110,0,1775052039,"~/hello.py"
 -'  1  0  ~/hello.py
 |4,39,1,0,1775052022,"~/hello.py"
+-'  1  0  ~/hello.py
+|4,39,1,0,1775051998,"~/hello.py"
 
 # History of marks within files (newest to oldest):
 
 > ~/hello.py
-	*	1775052033	0
+	*	1775052013	0
 	"	110	0
 	^	110	0
 	.	109	32
