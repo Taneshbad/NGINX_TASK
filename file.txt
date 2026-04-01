@@ -1,0 +1,32 @@
+    1  ls
+    2  ls -a
+    3  sudo apt update
+    4  clear
+    5  sudo adduser devuser
+    6  sudo -aG sudo devuser
+    7  clear
+    8  users
+    9  group
+   10  groups
+   11  sudo adduser devuser
+   12  sudo usermod -aG wheel devuser
+   13  sudo usermod -aG sudo devuser
+   14  sudo usermod -aG wheel devuser
+   15  sudo groupadd appgroup
+   16  sudo usermod -aG appgroup devuser
+   17  # Create the directory if it does not already exist
+   18  sudo mkdir -p /opt/apps
+   19  # Change the group ownership to appgroup
+   20  sudo chown :appgroup /opt/apps
+   21  # Set permissions: Read, Write, Execute for owner and group; no access for others
+   22  sudo chmod 770 /opt/apps
+   23  groups devuser
+   24  ls -ld /opt/apps
+   25  history
+   26  touch history >> file.txt
+   27  ls
+   28  cat file.txt 
+   29  touch history >> file.txt
+   30  touch "history" >> file.txt
+   31  cat file.txt 
+   32  history > file.txt
